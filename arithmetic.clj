@@ -1,6 +1,20 @@
 ;; hastily written because I thought it was a good idea
 ;;   ...let's see how much I remember from The Little Schemer
 
+;;;;;
+;; incrementor / decrementor
+;;;;;
+(defn inc
+  [x]
+  (+ x 1))
+
+(defn dec
+  [x]
+  (- x 1))
+
+;;;;;
+;; actual arithmetic functions
+;;;;;
 (defn add
   [x y]
 	(if (= x 0) y
